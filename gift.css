@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Her-Gilwonok';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_ten@1.0/Her-Gilwonok.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html, body {
+  height:100%; width:100%;
+  display:flex; justify-content:center; align-items:center;
+  background:linear-gradient(135deg,#eee,#ccc);
+  font-family: 'Her-Gilwonok'; color:#000;
+}
+.gift-page {
+  text-align:center;
+  background:rgba(255,255,255,0.9);
+  padding:2rem; border-radius:10px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.2);
+}
+.gift-page h1 {
+  font-size:2.5rem; margin-bottom:1rem;
+}
+.gifticon img {
+  max-width:300px; height:auto;
+  /* filter:grayscale(100%); */
+}
