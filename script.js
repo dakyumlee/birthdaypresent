@@ -1,4 +1,4 @@
-const PASSWORD = "수0622현"
+const PASSWORD = "0622"
 
 const loginDiv = document.getElementById("login")
 const paperDiv = document.getElementById("paper")
